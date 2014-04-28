@@ -1,0 +1,23 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "A simple greeter",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Shane H",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "minimist": "0.0.8"
+  }
+}
