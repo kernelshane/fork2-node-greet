@@ -1,4 +1,4 @@
-var greet = require('greet')
+var greet = require('../lib/index')
 describe('greet', function() {
     it("should greet a person by name", function(){
         expect('hello, Mocha').to.equal(greet('Mocha'));
